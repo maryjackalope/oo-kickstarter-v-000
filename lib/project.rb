@@ -4,17 +4,14 @@ class Project
  
   def initialize(title)
     @title = title
-    @backer = self.backer
+    @backer = []
   end
   
   def add_backer(backer)
     @backer << backer
-    post.author = self
-    @@post_count += 1
+    project.backer = self
   end
-    backed_projects = [] >> backer
-    add_backer(backer)
-  end 
+  
   
   
 end
