@@ -1,10 +1,9 @@
 class Backer
-  attr_accessor :name, :pets
-  attr_reader :species
+  attr_accessor :name, :project
   
   @@all = []
   
-  def initialize(species)
+  def initialize(name)
     @@all << self
     @species = species
     @pets = {:fishes=>[], :dogs=>[], :cats=>[]}
