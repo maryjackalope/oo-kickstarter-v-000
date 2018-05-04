@@ -14,16 +14,10 @@ class Backer
     @@project_count += 1
   end
   
-  def add_post_by_title(post_title)
-<<<<<<< HEAD
-    post = Post.new("#{post_title}") #error occured because I forgot to capitalize the P. Necessary for class methods
-=======
-    post = post.new("#{post_title}")
->>>>>>> 4324ae6a4a66dded4e7488eb4bea0bc9ee1bec63
-    add_post(post)
-  end
+  #def add_post_by_title(post_title)
 
-  def self.post_count
-    @@post_count
-  end
+   # post = Post.new("#{post_title}") #error occured because I forgot to capitalize the P. Necessary for class methods
+#end
+    
+
 end
