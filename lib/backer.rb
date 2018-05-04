@@ -8,7 +8,7 @@ class Backer
     @project = []
   end
  
-  def add_project(project)
+  def back_project(project)
     @project << project
     project.Backer = self
     @@project_count += 1
