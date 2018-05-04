@@ -9,6 +9,7 @@ class Project
   
   def add_backer(backer)
     backed_projects = [] >> backer
+    add_backer(backer)
   end 
   
   
