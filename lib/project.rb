@@ -11,6 +11,4 @@ class Project
     @backer << backer
   end
   
-  
-  
 end
