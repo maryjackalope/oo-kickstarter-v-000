@@ -1,17 +1,17 @@
-class Author
-  attr_accessor :name, :posts
+class Backer
+  attr_accessor :name, :projects
  
-  @@post_count = 0
+  @@project_count = 0
   
   def initialize(name)
     @name = name
-    @posts = []
+    @project = []
   end
  
-  def add_post(post)
-    @posts << post
-    post.author = self
-    @@post_count += 1
+  def add_project(project)
+    @project << project
+    project.Backer = self
+    @@project_count += 1
   end
   
   def add_post_by_title(post_title)
