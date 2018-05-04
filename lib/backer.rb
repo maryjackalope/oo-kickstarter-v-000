@@ -10,8 +10,7 @@ class Backer
  
   def back_project(project)
     @project << project
-    project.Backer = self
-    @@project_count += 1
+  
   end
   
   #def add_post_by_title(post_title)
