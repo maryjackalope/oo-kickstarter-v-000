@@ -7,11 +7,9 @@ class Project
     @backer = self.backer
   end
   
-  def backer_name
-    if self.author == nil
-      nil
-    else
-      self.backer.name
-    end 
+  def add_backer(backer)
+    
   end
+  
+  
 end
